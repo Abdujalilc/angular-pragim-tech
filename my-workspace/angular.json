@@ -3,31 +3,31 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "08_life-cycle": {
+    "01_attribute-property-binding": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
           "strict": true
         }
       },
-      "root": "projects/08_life-cycle",
-      "sourceRoot": "projects/08_life-cycle/src",
+      "root": "projects/01_attribute-property-binding",
+      "sourceRoot": "projects/01_attribute-property-binding/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/08_life-cycle",
-            "index": "projects/08_life-cycle/src/index.html",
-            "main": "projects/08_life-cycle/src/main.ts",
-            "polyfills": "projects/08_life-cycle/src/polyfills.ts",
-            "tsConfig": "projects/08_life-cycle/tsconfig.app.json",
+            "outputPath": "dist/01_attribute-property-binding",
+            "index": "projects/01_attribute-property-binding/src/index.html",
+            "main": "projects/01_attribute-property-binding/src/main.ts",
+            "polyfills": "projects/01_attribute-property-binding/src/polyfills.ts",
+            "tsConfig": "projects/01_attribute-property-binding/tsconfig.app.json",
             "assets": [
-              "projects/08_life-cycle/src/favicon.ico",
-              "projects/08_life-cycle/src/assets"
+              "projects/01_attribute-property-binding/src/favicon.ico",
+              "projects/01_attribute-property-binding/src/assets"
             ],
             "styles": [
-              "projects/08_life-cycle/src/styles.css"
+              "projects/01_attribute-property-binding/src/styles.css"
             ],
             "scripts": []
           },
@@ -47,8 +47,8 @@
               ],
               "fileReplacements": [
                 {
-                  "replace": "projects/08_life-cycle/src/environments/environment.ts",
-                  "with": "projects/08_life-cycle/src/environments/environment.prod.ts"
+                  "replace": "projects/01_attribute-property-binding/src/environments/environment.ts",
+                  "with": "projects/01_attribute-property-binding/src/environments/environment.prod.ts"
                 }
               ],
               "outputHashing": "all"
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "08_life-cycle:build:production"
+              "browserTarget": "01_attribute-property-binding:build:production"
             },
             "development": {
-              "browserTarget": "08_life-cycle:build:development"
+              "browserTarget": "01_attribute-property-binding:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,53 +79,53 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "08_life-cycle:build"
+            "browserTarget": "01_attribute-property-binding:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/08_life-cycle/src/test.ts",
-            "polyfills": "projects/08_life-cycle/src/polyfills.ts",
-            "tsConfig": "projects/08_life-cycle/tsconfig.spec.json",
-            "karmaConfig": "projects/08_life-cycle/karma.conf.js",
+            "main": "projects/01_attribute-property-binding/src/test.ts",
+            "polyfills": "projects/01_attribute-property-binding/src/polyfills.ts",
+            "tsConfig": "projects/01_attribute-property-binding/tsconfig.spec.json",
+            "karmaConfig": "projects/01_attribute-property-binding/karma.conf.js",
             "assets": [
-              "projects/08_life-cycle/src/favicon.ico",
-              "projects/08_life-cycle/src/assets"
+              "projects/01_attribute-property-binding/src/favicon.ico",
+              "projects/01_attribute-property-binding/src/assets"
             ],
             "styles": [
-              "projects/08_life-cycle/src/styles.css"
+              "projects/01_attribute-property-binding/src/styles.css"
             ],
             "scripts": []
           }
         }
       }
     },
-    "08_life-cycle": {
+    "02_style-binding": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
           "strict": true
         }
       },
-      "root": "projects/08_life-cycle",
-      "sourceRoot": "projects/08_life-cycle/src",
+      "root": "projects/02_style-binding",
+      "sourceRoot": "projects/02_style-binding/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/08_life-cycle",
-            "index": "projects/08_life-cycle/src/index.html",
-            "main": "projects/08_life-cycle/src/main.ts",
-            "polyfills": "projects/08_life-cycle/src/polyfills.ts",
-            "tsConfig": "projects/08_life-cycle/tsconfig.app.json",
+            "outputPath": "dist/02_style-binding",
+            "index": "projects/02_style-binding/src/index.html",
+            "main": "projects/02_style-binding/src/main.ts",
+            "polyfills": "projects/02_style-binding/src/polyfills.ts",
+            "tsConfig": "projects/02_style-binding/tsconfig.app.json",
             "assets": [
-              "projects/08_life-cycle/src/favicon.ico",
-              "projects/08_life-cycle/src/assets"
+              "projects/02_style-binding/src/favicon.ico",
+              "projects/02_style-binding/src/assets"
             ],
             "styles": [
-              "projects/08_life-cycle/src/styles.css"
+              "projects/02_style-binding/src/styles.css"
             ],
             "scripts": []
           },
@@ -145,8 +145,8 @@
               ],
               "fileReplacements": [
                 {
-                  "replace": "projects/08_life-cycle/src/environments/environment.ts",
-                  "with": "projects/08_life-cycle/src/environments/environment.prod.ts"
+                  "replace": "projects/02_style-binding/src/environments/environment.ts",
+                  "with": "projects/02_style-binding/src/environments/environment.prod.ts"
                 }
               ],
               "outputHashing": "all"
@@ -166,10 +166,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "08_life-cycle:build:production"
+              "browserTarget": "02_style-binding:build:production"
             },
             "development": {
-              "browserTarget": "08_life-cycle:build:development"
+              "browserTarget": "02_style-binding:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -177,53 +177,53 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "08_life-cycle:build"
+            "browserTarget": "02_style-binding:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/08_life-cycle/src/test.ts",
-            "polyfills": "projects/08_life-cycle/src/polyfills.ts",
-            "tsConfig": "projects/08_life-cycle/tsconfig.spec.json",
-            "karmaConfig": "projects/08_life-cycle/karma.conf.js",
+            "main": "projects/02_style-binding/src/test.ts",
+            "polyfills": "projects/02_style-binding/src/polyfills.ts",
+            "tsConfig": "projects/02_style-binding/tsconfig.spec.json",
+            "karmaConfig": "projects/02_style-binding/karma.conf.js",
             "assets": [
-              "projects/08_life-cycle/src/favicon.ico",
-              "projects/08_life-cycle/src/assets"
+              "projects/02_style-binding/src/favicon.ico",
+              "projects/02_style-binding/src/assets"
             ],
             "styles": [
-              "projects/08_life-cycle/src/styles.css"
+              "projects/02_style-binding/src/styles.css"
             ],
             "scripts": []
           }
         }
       }
     },
-    "08_life-cycle": {
+    "03_one-way-data-binding": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
           "strict": true
         }
       },
-      "root": "projects/08_life-cycle",
-      "sourceRoot": "projects/08_life-cycle/src",
+      "root": "projects/03_one-way-data-binding",
+      "sourceRoot": "projects/03_one-way-data-binding/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/08_life-cycle",
-            "index": "projects/08_life-cycle/src/index.html",
-            "main": "projects/08_life-cycle/src/main.ts",
-            "polyfills": "projects/08_life-cycle/src/polyfills.ts",
-            "tsConfig": "projects/08_life-cycle/tsconfig.app.json",
+            "outputPath": "dist/03_one-way-data-binding",
+            "index": "projects/03_one-way-data-binding/src/index.html",
+            "main": "projects/03_one-way-data-binding/src/main.ts",
+            "polyfills": "projects/03_one-way-data-binding/src/polyfills.ts",
+            "tsConfig": "projects/03_one-way-data-binding/tsconfig.app.json",
             "assets": [
-              "projects/08_life-cycle/src/favicon.ico",
-              "projects/08_life-cycle/src/assets"
+              "projects/03_one-way-data-binding/src/favicon.ico",
+              "projects/03_one-way-data-binding/src/assets"
             ],
             "styles": [
-              "projects/08_life-cycle/src/styles.css"
+              "projects/03_one-way-data-binding/src/styles.css"
             ],
             "scripts": []
           },
@@ -243,8 +243,8 @@
               ],
               "fileReplacements": [
                 {
-                  "replace": "projects/08_life-cycle/src/environments/environment.ts",
-                  "with": "projects/08_life-cycle/src/environments/environment.prod.ts"
+                  "replace": "projects/03_one-way-data-binding/src/environments/environment.ts",
+                  "with": "projects/03_one-way-data-binding/src/environments/environment.prod.ts"
                 }
               ],
               "outputHashing": "all"
@@ -264,10 +264,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "08_life-cycle:build:production"
+              "browserTarget": "03_one-way-data-binding:build:production"
             },
             "development": {
-              "browserTarget": "08_life-cycle:build:development"
+              "browserTarget": "03_one-way-data-binding:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -275,53 +275,53 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "08_life-cycle:build"
+            "browserTarget": "03_one-way-data-binding:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/08_life-cycle/src/test.ts",
-            "polyfills": "projects/08_life-cycle/src/polyfills.ts",
-            "tsConfig": "projects/08_life-cycle/tsconfig.spec.json",
-            "karmaConfig": "projects/08_life-cycle/karma.conf.js",
+            "main": "projects/03_one-way-data-binding/src/test.ts",
+            "polyfills": "projects/03_one-way-data-binding/src/polyfills.ts",
+            "tsConfig": "projects/03_one-way-data-binding/tsconfig.spec.json",
+            "karmaConfig": "projects/03_one-way-data-binding/karma.conf.js",
             "assets": [
-              "projects/08_life-cycle/src/favicon.ico",
-              "projects/08_life-cycle/src/assets"
+              "projects/03_one-way-data-binding/src/favicon.ico",
+              "projects/03_one-way-data-binding/src/assets"
             ],
             "styles": [
-              "projects/08_life-cycle/src/styles.css"
+              "projects/03_one-way-data-binding/src/styles.css"
             ],
             "scripts": []
           }
         }
       }
     },
-    "08_life-cycle": {
+    "04_ngfor-directive": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
           "strict": true
         }
       },
-      "root": "projects/08_life-cycle",
-      "sourceRoot": "projects/08_life-cycle/src",
+      "root": "projects/04_ngfor-directive",
+      "sourceRoot": "projects/04_ngfor-directive/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/08_life-cycle",
-            "index": "projects/08_life-cycle/src/index.html",
-            "main": "projects/08_life-cycle/src/main.ts",
-            "polyfills": "projects/08_life-cycle/src/polyfills.ts",
-            "tsConfig": "projects/08_life-cycle/tsconfig.app.json",
+            "outputPath": "dist/04_ngfor-directive",
+            "index": "projects/04_ngfor-directive/src/index.html",
+            "main": "projects/04_ngfor-directive/src/main.ts",
+            "polyfills": "projects/04_ngfor-directive/src/polyfills.ts",
+            "tsConfig": "projects/04_ngfor-directive/tsconfig.app.json",
             "assets": [
-              "projects/08_life-cycle/src/favicon.ico",
-              "projects/08_life-cycle/src/assets"
+              "projects/04_ngfor-directive/src/favicon.ico",
+              "projects/04_ngfor-directive/src/assets"
             ],
             "styles": [
-              "projects/08_life-cycle/src/styles.css"
+              "projects/04_ngfor-directive/src/styles.css"
             ],
             "scripts": []
           },
@@ -341,8 +341,8 @@
               ],
               "fileReplacements": [
                 {
-                  "replace": "projects/08_life-cycle/src/environments/environment.ts",
-                  "with": "projects/08_life-cycle/src/environments/environment.prod.ts"
+                  "replace": "projects/04_ngfor-directive/src/environments/environment.ts",
+                  "with": "projects/04_ngfor-directive/src/environments/environment.prod.ts"
                 }
               ],
               "outputHashing": "all"
@@ -362,10 +362,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "08_life-cycle:build:production"
+              "browserTarget": "04_ngfor-directive:build:production"
             },
             "development": {
-              "browserTarget": "08_life-cycle:build:development"
+              "browserTarget": "04_ngfor-directive:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -373,53 +373,53 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "08_life-cycle:build"
+            "browserTarget": "04_ngfor-directive:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/08_life-cycle/src/test.ts",
-            "polyfills": "projects/08_life-cycle/src/polyfills.ts",
-            "tsConfig": "projects/08_life-cycle/tsconfig.spec.json",
-            "karmaConfig": "projects/08_life-cycle/karma.conf.js",
+            "main": "projects/04_ngfor-directive/src/test.ts",
+            "polyfills": "projects/04_ngfor-directive/src/polyfills.ts",
+            "tsConfig": "projects/04_ngfor-directive/tsconfig.spec.json",
+            "karmaConfig": "projects/04_ngfor-directive/karma.conf.js",
             "assets": [
-              "projects/08_life-cycle/src/favicon.ico",
-              "projects/08_life-cycle/src/assets"
+              "projects/04_ngfor-directive/src/favicon.ico",
+              "projects/04_ngfor-directive/src/assets"
             ],
             "styles": [
-              "projects/08_life-cycle/src/styles.css"
+              "projects/04_ngfor-directive/src/styles.css"
             ],
             "scripts": []
           }
         }
       }
     },
-    "08_life-cycle": {
+    "05_ngfor-track-by": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
           "strict": true
         }
       },
-      "root": "projects/08_life-cycle",
-      "sourceRoot": "projects/08_life-cycle/src",
+      "root": "projects/05_ngfor-track-by",
+      "sourceRoot": "projects/05_ngfor-track-by/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/08_life-cycle",
-            "index": "projects/08_life-cycle/src/index.html",
-            "main": "projects/08_life-cycle/src/main.ts",
-            "polyfills": "projects/08_life-cycle/src/polyfills.ts",
-            "tsConfig": "projects/08_life-cycle/tsconfig.app.json",
+            "outputPath": "dist/05_ngfor-track-by",
+            "index": "projects/05_ngfor-track-by/src/index.html",
+            "main": "projects/05_ngfor-track-by/src/main.ts",
+            "polyfills": "projects/05_ngfor-track-by/src/polyfills.ts",
+            "tsConfig": "projects/05_ngfor-track-by/tsconfig.app.json",
             "assets": [
-              "projects/08_life-cycle/src/favicon.ico",
-              "projects/08_life-cycle/src/assets"
+              "projects/05_ngfor-track-by/src/favicon.ico",
+              "projects/05_ngfor-track-by/src/assets"
             ],
             "styles": [
-              "projects/08_life-cycle/src/styles.css"
+              "projects/05_ngfor-track-by/src/styles.css"
             ],
             "scripts": []
           },
@@ -439,8 +439,8 @@
               ],
               "fileReplacements": [
                 {
-                  "replace": "projects/08_life-cycle/src/environments/environment.ts",
-                  "with": "projects/08_life-cycle/src/environments/environment.prod.ts"
+                  "replace": "projects/05_ngfor-track-by/src/environments/environment.ts",
+                  "with": "projects/05_ngfor-track-by/src/environments/environment.prod.ts"
                 }
               ],
               "outputHashing": "all"
@@ -460,10 +460,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "08_life-cycle:build:production"
+              "browserTarget": "05_ngfor-track-by:build:production"
             },
             "development": {
-              "browserTarget": "08_life-cycle:build:development"
+              "browserTarget": "05_ngfor-track-by:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -471,53 +471,53 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "08_life-cycle:build"
+            "browserTarget": "05_ngfor-track-by:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/08_life-cycle/src/test.ts",
-            "polyfills": "projects/08_life-cycle/src/polyfills.ts",
-            "tsConfig": "projects/08_life-cycle/tsconfig.spec.json",
-            "karmaConfig": "projects/08_life-cycle/karma.conf.js",
+            "main": "projects/05_ngfor-track-by/src/test.ts",
+            "polyfills": "projects/05_ngfor-track-by/src/polyfills.ts",
+            "tsConfig": "projects/05_ngfor-track-by/tsconfig.spec.json",
+            "karmaConfig": "projects/05_ngfor-track-by/karma.conf.js",
             "assets": [
-              "projects/08_life-cycle/src/favicon.ico",
-              "projects/08_life-cycle/src/assets"
+              "projects/05_ngfor-track-by/src/favicon.ico",
+              "projects/05_ngfor-track-by/src/assets"
             ],
             "styles": [
-              "projects/08_life-cycle/src/styles.css"
+              "projects/05_ngfor-track-by/src/styles.css"
             ],
             "scripts": []
           }
         }
       }
     },
-    "08_life-cycle": {
+    "06_custom-pipe": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
           "strict": true
         }
       },
-      "root": "projects/08_life-cycle",
-      "sourceRoot": "projects/08_life-cycle/src",
+      "root": "projects/06_custom-pipe",
+      "sourceRoot": "projects/06_custom-pipe/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/08_life-cycle",
-            "index": "projects/08_life-cycle/src/index.html",
-            "main": "projects/08_life-cycle/src/main.ts",
-            "polyfills": "projects/08_life-cycle/src/polyfills.ts",
-            "tsConfig": "projects/08_life-cycle/tsconfig.app.json",
+            "outputPath": "dist/06_custom-pipe",
+            "index": "projects/06_custom-pipe/src/index.html",
+            "main": "projects/06_custom-pipe/src/main.ts",
+            "polyfills": "projects/06_custom-pipe/src/polyfills.ts",
+            "tsConfig": "projects/06_custom-pipe/tsconfig.app.json",
             "assets": [
-              "projects/08_life-cycle/src/favicon.ico",
-              "projects/08_life-cycle/src/assets"
+              "projects/06_custom-pipe/src/favicon.ico",
+              "projects/06_custom-pipe/src/assets"
             ],
             "styles": [
-              "projects/08_life-cycle/src/styles.css"
+              "projects/06_custom-pipe/src/styles.css"
             ],
             "scripts": []
           },
@@ -537,8 +537,8 @@
               ],
               "fileReplacements": [
                 {
-                  "replace": "projects/08_life-cycle/src/environments/environment.ts",
-                  "with": "projects/08_life-cycle/src/environments/environment.prod.ts"
+                  "replace": "projects/06_custom-pipe/src/environments/environment.ts",
+                  "with": "projects/06_custom-pipe/src/environments/environment.prod.ts"
                 }
               ],
               "outputHashing": "all"
@@ -558,10 +558,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "08_life-cycle:build:production"
+              "browserTarget": "06_custom-pipe:build:production"
             },
             "development": {
-              "browserTarget": "08_life-cycle:build:development"
+              "browserTarget": "06_custom-pipe:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -569,53 +569,53 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "08_life-cycle:build"
+            "browserTarget": "06_custom-pipe:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/08_life-cycle/src/test.ts",
-            "polyfills": "projects/08_life-cycle/src/polyfills.ts",
-            "tsConfig": "projects/08_life-cycle/tsconfig.spec.json",
-            "karmaConfig": "projects/08_life-cycle/karma.conf.js",
+            "main": "projects/06_custom-pipe/src/test.ts",
+            "polyfills": "projects/06_custom-pipe/src/polyfills.ts",
+            "tsConfig": "projects/06_custom-pipe/tsconfig.spec.json",
+            "karmaConfig": "projects/06_custom-pipe/karma.conf.js",
             "assets": [
-              "projects/08_life-cycle/src/favicon.ico",
-              "projects/08_life-cycle/src/assets"
+              "projects/06_custom-pipe/src/favicon.ico",
+              "projects/06_custom-pipe/src/assets"
             ],
             "styles": [
-              "projects/08_life-cycle/src/styles.css"
+              "projects/06_custom-pipe/src/styles.css"
             ],
             "scripts": []
           }
         }
       }
     },
-    "08_life-cycle": {
+    "07_container-nested-components": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
           "strict": true
         }
       },
-      "root": "projects/08_life-cycle",
-      "sourceRoot": "projects/08_life-cycle/src",
+      "root": "projects/07_container-nested-components",
+      "sourceRoot": "projects/07_container-nested-components/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/08_life-cycle",
-            "index": "projects/08_life-cycle/src/index.html",
-            "main": "projects/08_life-cycle/src/main.ts",
-            "polyfills": "projects/08_life-cycle/src/polyfills.ts",
-            "tsConfig": "projects/08_life-cycle/tsconfig.app.json",
+            "outputPath": "dist/07_container-nested-components",
+            "index": "projects/07_container-nested-components/src/index.html",
+            "main": "projects/07_container-nested-components/src/main.ts",
+            "polyfills": "projects/07_container-nested-components/src/polyfills.ts",
+            "tsConfig": "projects/07_container-nested-components/tsconfig.app.json",
             "assets": [
-              "projects/08_life-cycle/src/favicon.ico",
-              "projects/08_life-cycle/src/assets"
+              "projects/07_container-nested-components/src/favicon.ico",
+              "projects/07_container-nested-components/src/assets"
             ],
             "styles": [
-              "projects/08_life-cycle/src/styles.css"
+              "projects/07_container-nested-components/src/styles.css"
             ],
             "scripts": []
           },
@@ -635,8 +635,8 @@
               ],
               "fileReplacements": [
                 {
-                  "replace": "projects/08_life-cycle/src/environments/environment.ts",
-                  "with": "projects/08_life-cycle/src/environments/environment.prod.ts"
+                  "replace": "projects/07_container-nested-components/src/environments/environment.ts",
+                  "with": "projects/07_container-nested-components/src/environments/environment.prod.ts"
                 }
               ],
               "outputHashing": "all"
@@ -656,10 +656,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "08_life-cycle:build:production"
+              "browserTarget": "07_container-nested-components:build:production"
             },
             "development": {
-              "browserTarget": "08_life-cycle:build:development"
+              "browserTarget": "07_container-nested-components:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -667,22 +667,22 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "08_life-cycle:build"
+            "browserTarget": "07_container-nested-components:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/08_life-cycle/src/test.ts",
-            "polyfills": "projects/08_life-cycle/src/polyfills.ts",
-            "tsConfig": "projects/08_life-cycle/tsconfig.spec.json",
-            "karmaConfig": "projects/08_life-cycle/karma.conf.js",
+            "main": "projects/07_container-nested-components/src/test.ts",
+            "polyfills": "projects/07_container-nested-components/src/polyfills.ts",
+            "tsConfig": "projects/07_container-nested-components/tsconfig.spec.json",
+            "karmaConfig": "projects/07_container-nested-components/karma.conf.js",
             "assets": [
-              "projects/08_life-cycle/src/favicon.ico",
-              "projects/08_life-cycle/src/assets"
+              "projects/07_container-nested-components/src/favicon.ico",
+              "projects/07_container-nested-components/src/assets"
             ],
             "styles": [
-              "projects/08_life-cycle/src/styles.css"
+              "projects/07_container-nested-components/src/styles.css"
             ],
             "scripts": []
           }

@@ -1,4 +1,4 @@
-/ Import OnInit Life Cycle Hook interface
+// Import OnInit Life Cycle Hook interface
 import { Component, OnInit } from '@angular/core';
 import { IEmployee } from './employee';
 // Import EmployeeService
@@ -14,7 +14,7 @@ import { EmployeeService } from './employee.service';
 })
 // Make the class implement OnInit interface
 export class EmployeeListComponent implements OnInit {
-    employees: IEmployee[];
+    employees: IEmployee[] = [];
 
     selectedEmployeeCountRadioButton: string = 'All';
 
